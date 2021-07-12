@@ -1,0 +1,22 @@
+d3=0
+d5=0
+for(i=1;i<=100;i++){
+	s=""
+	d3++
+	d5++
+	if(d3==3){
+		s=s+"fizz"
+	    d3=0
+	}
+	if(d5==5){
+		s=s+"Buzz"
+		c5=0
+	}
+	if(s=""){
+		console.log(i)
+	}
+	else{
+		console.log(s)
+	}
+}
+	
